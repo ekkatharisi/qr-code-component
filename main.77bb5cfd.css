@@ -1,0 +1,70 @@
+/**********************/
+/**    Variables     **/
+/**********************/
+/** Colors **/
+/*************/
+/** Spacing **/
+/*************/
+/** width & height **/
+/********************/
+/***********************/
+/***********************/
+/**    common css blocks    **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D5E1EF;
+}
+
+.card {
+  max-width: 20rem;
+  min-height: 31.1rem;
+  background-color: #FFF;
+  border-radius: 1.25rem;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  display: block;
+  margin: 150px auto;
+}
+.card .centered-container {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 18rem;
+}
+.card .centered-container img {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.625rem;
+}
+.card .centered-container .title {
+  margin-top: 1.5rem;
+  color: #1F314F;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading */
+  font-family: Outfit, sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card .centered-container .text {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: #7D889E;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Outfit, sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01175rem;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
